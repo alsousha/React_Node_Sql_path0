@@ -1,0 +1,68 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 10px;
+}
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  width: 30px !important;
+  height: 30px !important;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  margin-top: 20px;
+}
+
+.map-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+/* posts */
+.post{
+  width: calc(100% / 3 - 20px);
+}
+.post-title{
+  min-height: 9rem;
+  text-align: center;
+  color: chocolate;
+}
+.post-title:hover{
+  color: brown;
+  transition: all 0.3s;
+}
